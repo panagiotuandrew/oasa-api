@@ -1,0 +1,32 @@
+name: Report outdated information
+description: If you find something that is outdated, please report it here
+labels: ["pending", "outdated"]
+assignees: "panagiotuandrew"
+title: "[ROI]: "
+body:
+ - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: The location where you found the outdated information
+      options:
+          - README.md
+          - Documentation
+    validations:
+        required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Please provide a link to where you found the outdated information. 
+    validations:
+      required: true
+  - type: textarea
+    id: more-info
+    attributes:
+      label: What is outdated?
+      description: 
+      placeholder: |
+        The text in [...] claims that [...], and that is false because [...]
+    validations:
+      required: true
