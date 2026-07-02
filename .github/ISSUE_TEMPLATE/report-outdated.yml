@@ -5,7 +5,6 @@ assignees: "panagiotuandrew"
 title: "[ROI]: "
 body:
  - type: dropdown
-    id: location
     attributes:
       label: Location
       description: The location where you found the outdated information
@@ -15,14 +14,12 @@ body:
     validations:
         required: true
   - type: input
-    id: link
     attributes:
       label: Link
       description: Please provide a link to where you found the outdated information. 
     validations:
       required: true
   - type: textarea
-    id: more-info
     attributes:
       label: What is outdated?
       description: 
