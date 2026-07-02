@@ -14651,13 +14651,6 @@ The OASA Telematics API provides real-time and static data for the Athens Public
             ]
           ]
         ]
-      },
-      "properties": {
-        "fill": "#FF0000",
-        "fill-opacity": 100,
-        "stroke": "#002266",
-        "stroke-width": 2,
-        "stroke-opacity": 0.8
       }
     }
   ]
