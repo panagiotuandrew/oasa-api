@@ -15,13 +15,6 @@ The OASA Telematics API provides real-time and static data for the Athens Public
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "shapeName": "Markopoulo Mesogaias",
-        "shapeISO": "",
-        "shapeID": "53547021B62460080330009",
-        "shapeGroup": "GRC",
-        "shapeType": "ADM3"
-      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -2728,12 +2721,12 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 38.093983
               ],
               [
-                23.9812771,
-                38.1010509
+                23.9826231,
+                38.100982
               ],
               [
-                23.9808485352591,
-                38.104956989649224
+                23.9823195,
+                38.1050835
               ],
               [
                 23.985078700247527,
@@ -2780,12 +2773,16 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 38.1304375
               ],
               [
-                24.05544881236716,
-                38.120662218167126
+                24.0563035,
+                38.1207189
               ],
               [
-                24.059318,
-                38.1221953
+                24.0601519,
+                38.1207907
+              ],
+              [
+                24.0608277,
+                38.1252313
               ],
               [
                 24.0623283,
@@ -2796,28 +2793,28 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 38.1316506
               ],
               [
-                24.0574941,
-                38.1422694
+                24.0583244,
+                38.1422219
               ],
               [
-                24.056845646859813,
-                38.145440842899745
+                24.059199,
+                38.1451606
               ],
               [
-                24.060781210499954,
-                38.14756736345072
+                24.0619642,
+                38.1475395
               ],
               [
-                24.0648875,
-                38.1504206
+                24.065184,
+                38.1502592
               ],
               [
-                24.061456369428583,
-                38.15140795751182
+                24.0625207,
+                38.1520098
               ],
               [
-                24.060841546358745,
-                38.15544122616933
+                24.0617654,
+                38.1554482
               ],
               [
                 24.06391085637506,
@@ -2864,8 +2861,8 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 38.182324
               ],
               [
-                24.0604691891387,
-                38.18575942526195
+                24.0618851,
+                38.1852402
               ],
               [
                 24.06429976019956,
@@ -2892,12 +2889,12 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 38.20136022947912
               ],
               [
-                24.059436319921133,
-                38.2042782291914
+                24.0602967,
+                38.2052268
               ],
               [
-                24.052686454267928,
-                38.207031368243975
+                24.0531633,
+                38.207796
               ],
               [
                 24.049195840071093,
@@ -13896,12 +13893,12 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 37.7201483
               ],
               [
-                23.937218,
-                37.7248595
+                23.936776,
+                37.7210261
               ],
               [
-                23.9428406,
-                37.7233142
+                23.9420448,
+                37.7203425
               ],
               [
                 23.943165,
@@ -14244,12 +14241,12 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 37.8622025
               ],
               [
-                24.0409904,
-                37.8632212
+                24.0420215,
+                37.8633256
               ],
               [
-                24.0406562,
-                37.8660667
+                24.042661,
+                37.8656717
               ],
               [
                 24.0436474,
@@ -14260,20 +14257,20 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 37.8664487
               ],
               [
-                24.0463922,
-                37.8689871
+                24.0471982,
+                37.8689085
               ],
               [
-                24.0460178,
-                37.8704109
+                24.0465159,
+                37.8706423
               ],
               [
-                24.0456299,
-                37.8721298
+                24.0459401,
+                37.872275
               ],
               [
-                24.04478,
-                37.8733498
+                24.0452151,
+                37.8734028
               ],
               [
                 24.0451287,
@@ -14284,24 +14281,24 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 37.8759729
               ],
               [
-                24.0421981,
-                37.8765319
+                24.0420173,
+                37.8768539
               ],
               [
-                24.0397638,
-                37.8757125
+                24.0395011,
+                37.8760965
               ],
               [
-                24.0368283,
-                37.8747517
+                24.0365371,
+                37.8749519
               ],
               [
-                24.0353536,
-                37.8729679
+                24.0351084,
+                37.8730331
               ],
               [
-                24.0338942,
-                37.8704943
+                24.0332746,
+                37.8707943
               ],
               [
                 24.0311899,
@@ -14332,8 +14329,8 @@ The OASA Telematics API provides real-time and static data for the Athens Public
                 37.883639
               ],
               [
-                24.0229953,
-                37.8842488
+                24.0230375,
+                37.8841392
               ],
               [
                 24.0188316,
@@ -14654,6 +14651,13 @@ The OASA Telematics API provides real-time and static data for the Athens Public
             ]
           ]
         ]
+      },
+      "properties": {
+        "fill": "#FF0000",
+        "fill-opacity": 100,
+        "stroke": "#002266",
+        "stroke-width": 2,
+        "stroke-opacity": 0.8
       }
     }
   ]
