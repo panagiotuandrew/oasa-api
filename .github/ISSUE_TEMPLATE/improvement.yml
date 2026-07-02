@@ -1,0 +1,33 @@
+name: Suggest an improvement
+description: To suggest an improvement, report it here
+labels: ["pending", "enhancement"]
+assignees:
+  - panagiotuandrew
+title: "[SI]: "
+body:
+  - type: dropdown
+    id: location
+    attributes:
+      label: Location
+      description: Where do you want to suggest an improvement?
+      options:
+        - README.md
+        - Documentation
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Please provide a link to where you want to suggest an improvement
+    validations:
+      required: true
+  - type: textarea
+    id: more-info
+    attributes:
+      label: What do you want to suggest?
+      description: Explain what improvements you want to suggest and why
+      placeholder: |
+        I want to suggest adding/removing [...] because [...]
+    validations:
+      required: true
