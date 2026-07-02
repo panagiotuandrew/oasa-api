@@ -3715,7 +3715,7 @@ The OASA Telematics API provides real-time and static data for the Athens Public
 </details>
 
 ## Documentation
-For documentation, please check the wiki
+For documentation, please check the [wiki](https://github.com/panagiotuandrew/oasa-api/wiki)
 
 ## Credits
 Thanks to [@giannis-papaioannou](https://github.com/giannis-papaioannou) for his work documenting the bus API endpoints in the [original wiki](https://oasa-telematics-api.readthedocs.io/en/latest/) from 2016.
